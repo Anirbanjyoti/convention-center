@@ -2,3 +2,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.pakg{
+    margin: 150px 0 200px 0;
+}
+.third-price {
+    top: -100px;
+    padding-top: 50px;
+    padding-bottom: 32px;
+    border-radius: 15px;
+}
