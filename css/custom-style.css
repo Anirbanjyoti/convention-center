@@ -11,3 +11,7 @@ body{
     padding-bottom: 32px;
     border-radius: 15px;
 }
+.toast{
+    position: absolute;
+    right: 0;
+}
