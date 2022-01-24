@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Source+Serif+Pro:wght@600&display=swap');
 body{
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 .pakg{
@@ -15,3 +16,28 @@ body{
     position: absolute;
     right: 0;
 }
+/* media-queries */
+@media only screen and (max-width:576px) {
+    .third-price {
+        top: 0;
+    }
+    .pakg {
+        margin: 100px 0 20px 0;
+    }
+    a.md-dev{
+        display: none;
+    }
+ }
+@media only screen and (max-width:768px) {
+    .third-price {
+        top: 0;
+    }
+    .pakg {
+        margin: 100px 0 20px 0;
+    }
+ }
+@media only screen and (min-width:768px) {
+    a.lg-dev{
+        display: none;
+    }
+ }
